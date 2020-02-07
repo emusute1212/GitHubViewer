@@ -1,6 +1,7 @@
 package com.yosuke.githubviewer.di
 
 import com.yosuke.githubviewer.GitHubViewerApp
+import com.yosuke.githubviewer.di.modules.ViewModelModule
 import dagger.BindsInstance
 import dagger.Component
 import dagger.android.AndroidInjector
@@ -10,7 +11,8 @@ import javax.inject.Singleton
 @Singleton
 @Component(
     modules = [
-        AndroidSupportInjectionModule::class
+        AndroidSupportInjectionModule::class,
+        ViewModelModule::class
     ]
 )
 interface ApplicationComponent : AndroidInjector<GitHubViewerApp> {
