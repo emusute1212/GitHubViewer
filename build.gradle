@@ -1,7 +1,7 @@
 project.ext.set("daggerVersion", "2.26")
 project.ext.set("retrofitVersion", "2.7.1")
 project.ext.set("moshiVersion", "1.9.2")
-project.ext.set("uiVersion", "0.1.0-dev03")
+project.ext.set("uiVersion", "0.1.0-dev04")
 project.ext.set("coreKtxVersion", "1.1.0")
 project.ext.set("appCompatVersion", "1.1.0")
 
